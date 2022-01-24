@@ -16,6 +16,8 @@
 		EE72A872278DF76F008C3FE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE72A870278DF76F008C3FE9 /* LaunchScreen.storyboard */; };
 		EE72A87D278DF76F008C3FE9 /* DataTransferTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE72A87C278DF76F008C3FE9 /* DataTransferTests.swift */; };
 		EE72A888278DF76F008C3FE9 /* DataTransferUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE72A887278DF76F008C3FE9 /* DataTransferUITests.swift */; };
+		EE72A896278DF7A5008C3FE9 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE72A895278DF7A5008C3FE9 /* SecondViewController.swift */; };
+		EE72A899278E0081008C3FE9 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE72A898278E0081008C3FE9 /* CustomTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		EE72A883278DF76F008C3FE9 /* DataTransferUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DataTransferUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE72A887278DF76F008C3FE9 /* DataTransferUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataTransferUITests.swift; sourceTree = "<group>"; };
 		EE72A889278DF76F008C3FE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE72A895278DF7A5008C3FE9 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		EE72A898278E0081008C3FE9 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +108,8 @@
 				EE72A862278DF76C008C3FE9 /* AppDelegate.swift */,
 				EE72A864278DF76C008C3FE9 /* SceneDelegate.swift */,
 				EE72A866278DF76C008C3FE9 /* ViewController.swift */,
+				EE72A898278E0081008C3FE9 /* CustomTextField.swift */,
+				EE72A895278DF7A5008C3FE9 /* SecondViewController.swift */,
 				EE72A868278DF76C008C3FE9 /* Main.storyboard */,
 				EE72A86E278DF76F008C3FE9 /* Assets.xcassets */,
 				EE72A870278DF76F008C3FE9 /* LaunchScreen.storyboard */,
@@ -263,7 +269,9 @@
 			files = (
 				EE72A86D278DF76C008C3FE9 /* DataTransfer.xcdatamodeld in Sources */,
 				EE72A867278DF76C008C3FE9 /* ViewController.swift in Sources */,
+				EE72A899278E0081008C3FE9 /* CustomTextField.swift in Sources */,
 				EE72A863278DF76C008C3FE9 /* AppDelegate.swift in Sources */,
+				EE72A896278DF7A5008C3FE9 /* SecondViewController.swift in Sources */,
 				EE72A865278DF76C008C3FE9 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
